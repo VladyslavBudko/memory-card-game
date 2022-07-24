@@ -60,11 +60,11 @@ body {
   backface-visibility: hidden;
 }
 
-.back-face {
+/* .back-face {
   height: auto;
-  transform: translateY(30%);
+  /* transform: translateY(30%); */
 
-}
+} */
 
 
 .memory-card.flip {
