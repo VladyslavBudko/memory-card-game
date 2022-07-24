@@ -45,11 +45,17 @@ body {
 .front-face,
 .back-face {
   width: 100%;
-  height: 100%;
-  padding: 20px;
+  max-height: 100%;
+
+  /* margin-top: auto; */
+  padding: 5px;
   position: absolute;
+
+  /* transform: translateY(30%); */
+
   border-radius: 5px;
   background: #1C7CCC;
+
   backface-visibility: hidden;
 }
 
