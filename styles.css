@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .upper {
   position: absolute;
   top: 5%;
@@ -45,18 +46,23 @@ body {
 .front-face,
 .back-face {
   width: 100%;
-  max-height: 100%;
+  height: 100%;
 
-  /* margin-top: auto; */
+  margin-top: auto;
   padding: 5px;
   position: absolute;
 
-  /* transform: translateY(30%); */
 
   border-radius: 5px;
   background: #1C7CCC;
 
   backface-visibility: hidden;
+}
+
+.back-face {
+  height: auto;
+  transform: translateY(30%);
+
 }
 
 
